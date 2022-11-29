@@ -1,0 +1,8 @@
+#ptBattleLink {
+  color: #25bad0;
+}
+
+#ptBattleLink:hover {
+  color: #d02525;
+  animation: colorChange 1s;
+}

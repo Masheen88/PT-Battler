@@ -1,0 +1,146 @@
+.Home {
+  color: white;
+  display: grid;
+  border: 1px solid white;
+
+  /* create a 5x3 grid */
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+}
+
+#gridItem1 {
+  border: 1px solid red;
+  /* padding: 100px; */
+  grid-column: 1 / 1; /* start at 3rd column, end at 4th column */
+  grid-row: 1 / 1; /* start at 2nd row, end at 3rd row */
+  /* center content to grid */
+  justify-self: center;
+  align-self: center;
+}
+
+#gridItem2 {
+  border: 1px solid red;
+  grid-column: 2 / 2; /* start at 3rd column, end at 4th column */
+  grid-row: 1 / 2; /* start at 2nd row, end at 3rd row */
+  /* center content to grid */
+  justify-self: center;
+  align-self: center;
+}
+
+/* grid item 3 - .lander */
+#gridItem3 {
+  border: 1px solid blue;
+  grid-column: 3 / 4; /* start at 3rd column, end at 4th column */
+  grid-row: 1 / 2; /* start at 2nd row, end at 3rd row */
+  /* center content to grid */
+  justify-self: center;
+  align-self: center;
+}
+
+#gridItem4 {
+  border: 1px solid red;
+  grid-column: 4 / 5; /* start at 3rd column, end at 4th column */
+  grid-row: 1 / 2; /* start at 2nd row, end at 3rd row */
+  /* center content to grid */
+  justify-self: center;
+  align-self: center;
+}
+
+#gridItem5 {
+  border: 1px solid red;
+  grid-column: 5 / 5; /* start at 3rd column, end at 4th column */
+  grid-row: 1 / 2; /* start at 2nd row, end at 3rd row */
+  /* center content to grid */
+  justify-self: center;
+  align-self: center;
+}
+
+#gridItem6 {
+  border: 1px solid red;
+  grid-column: 1 / 1; /* start at 3rd column, end at 4th column */
+  grid-row: 2 / 2; /* start at 2nd row, end at 3rd row */
+  /* center content to grid */
+  justify-self: center;
+  align-self: center;
+}
+
+#gridItem7 {
+  border: 1px solid red;
+  grid-column: 2 / 2; /* start at 3rd column, end at 4th column */
+  grid-row: 2 / 2; /* start at 2nd row, end at 3rd row */
+  /* center content to grid */
+  justify-self: center;
+  align-self: center;
+}
+
+/* grid item 8 - .loginForm */
+.loginForm {
+  border: 1px solid red;
+
+  /* set login form to 2nd grid */
+  grid-column: 3 / 4; /* start at 2nd column, end at 5th column */
+  grid-row: 2 / 3; /* start at 2nd row, end at 3rd row */
+}
+
+#gridItem9 {
+  border: 1px solid red;
+  grid-column: 4 / 5; /* start at 3rd column, end at 4th column */
+  grid-row: 2 / 2; /* start at 2nd row, end at 3rd row */
+  /* center content to grid */
+  justify-self: center;
+  align-self: center;
+}
+
+#gridItem10 {
+  border: 1px solid red;
+  grid-column: 5 / 5; /* start at 3rd column, end at 4th column */
+  grid-row: 2 / 2; /* start at 2nd row, end at 3rd row */
+  /* center content to grid */
+  justify-self: center;
+  align-self: center;
+}
+
+#gridItem11 {
+  border: 1px solid red;
+  grid-column: 1 / 1; /* start at 3rd column, end at 4th column */
+  grid-row: 3 / 3; /* start at 2nd row, end at 3rd row */
+  /* center content to grid */
+  justify-self: center;
+  align-self: center;
+}
+
+#gridItem12 {
+  border: 1px solid red;
+  grid-column: 2 / 2; /* start at 3rd column, end at 4th column */
+  grid-row: 3 / 3; /* start at 2nd row, end at 3rd row */
+  /* center content to grid */
+  justify-self: center;
+  align-self: center;
+}
+
+#gridItem13 {
+  border: 1px solid red;
+  grid-column: 3 / 4; /* start at 3rd column, end at 4th column */
+  grid-row: 3 / 3; /* start at 2nd row, end at 3rd row */
+  /* center content to grid */
+  justify-self: center;
+  align-self: center;
+}
+
+#gridItem14 {
+  border: 1px solid red;
+  grid-column: 4 / 5; /* start at 3rd column, end at 4th column */
+  grid-row: 3 / 3; /* start at 2nd row, end at 3rd row */
+  /* center content to grid */
+  justify-self: center;
+  align-self: center;
+}
+
+#gridItem15 {
+  border: 1px solid red;
+  grid-column: 5 / 5; /* start at 3rd column, end at 4th column */
+  grid-row: 3 / 3; /* start at 2nd row, end at 3rd row */
+  /* center content to grid */
+  justify-self: center;
+  align-self: center;
+}
